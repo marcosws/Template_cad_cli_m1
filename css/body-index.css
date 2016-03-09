@@ -1,0 +1,18 @@
+/****************************************************** 
+ * Autor: marcos Willian de Souza - Data: 07/03/2016 
+ * Arquivo: body-index.css                               
+ *****************************************************/
+
+@charset "UTF-8";
+
+/* form */
+form {
+	padding: 0 5px 0 25px;
+	width: 540px;
+}
+form p{
+	font-weight: bold;
+}
+form input {
+	border: 1px solid #4876FF;
+}

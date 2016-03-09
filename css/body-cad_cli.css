@@ -1,0 +1,20 @@
+/****************************************************** 
+ * Autor: marcos Willian de Souza - Data: 07/03/2016 
+ * Arquivo: body-cad_cli.css                               
+ *****************************************************/
+
+@charset "UTF-8";
+
+/* body - article */
+article table {
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+article table tr td{
+	border: 2px solid #4876FF;
+	width: 170px
+}
+article table tr td span{
+	font-weight: bold;
+}

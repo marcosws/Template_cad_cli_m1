@@ -1,0 +1,51 @@
+/****************************************************** 
+ * Autor: marcos Willian de Souza - Data: 07/03/2016 
+ * Arquivo: style.css                               
+ *****************************************************/
+
+@charset "UTF-8";
+
+/* classes de formatação usado pelo JavaScript */
+.validado {
+    border: 1px solid green;
+}
+.nvalidado {
+    border: 1px solid red;
+}
+/* body */
+body{
+	background: #1E90FF;
+	/*background: #E0FFFF; */
+	color: #4876FF;
+	padding: 5px 0 25px;
+	font: 100% Arial;
+}
+/* Formata a div principal com o nome da classe de: container */
+#container  {
+	background: #ffffff;
+	margin: 0 auto;
+	width: 820px;
+	
+  -webkit-box-shadow: 0px 0px 30px #000; /* Saf3.0+, Chrome */
+     -moz-box-shadow: 0px 0px 30px #000; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 30px #000; /* Opera 10.5, IE9, FF4+, Chrome 10+ */	
+}
+/* header */
+header {
+	background-color: #4876FF;
+	color: #ffffff;
+}
+header h1 {
+	padding: 0 5px 0 25px;
+}
+/* form */
+
+/* footer */
+footer {
+	background-color: #4876FF;
+	color: #ffffff;
+	font: 100% Arial;
+}
+footer p {
+	padding: 0 5px 0 25px;
+}

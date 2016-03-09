@@ -1,0 +1,39 @@
+<!-- Autor Marcos Willian de Souza - Data: 07/03/2016 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Cadastro de Cliente</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/body-index.css" />
+		<!-- jQuery -->
+        <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> ONLINE -->
+		<script src="js/jquery/jquery-2.2.1.js"></script>
+		<!-- JavaScript --->
+		<script src="js/common-js.js"></script>
+		<!-- Formata o input validando o campo (Usando o JQuery) -->
+		<script src="js/format-valid-js.js"></script>
+	</head>
+	<body>
+	<div id="container">
+		<header role="banner">
+			<h1>Cadastro de Cliente</h1>
+		</header>
+		<form class="formulario" id="frm" method="POST" action="cad_cli.html" onSubmit="return verifica()">
+			<p>Nome:</p>
+			<p><input name="nome" type="text" class="name_text" id="nome"></p>
+			<p>Idade:</p>
+			<p><input name="idd_num" type="text" class="idade" id="idd_num"></p>
+			<p>Email:</p>
+			<p><input name="email" type="text" class="email" id="email"></p>
+			<p>Nick Name:</p>
+			<p><input name="nick" type="text" class="nick_name" id="nick"></p>
+			<p><input name="enviar" value="Enviar" type="submit"></p>
+		</form>
+		<footer role="contentinfo">
+			<p><small>&copy Copyright 2016 - Marcos Willian de Souza</small></p>
+		</footer>
+	<div/>
+	</body>
+</html>
